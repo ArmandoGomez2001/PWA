@@ -1,0 +1,22 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[BBVA(2020)]{pwaRequirements}
+BBVA.
+\newblock Minimum requirements for implementing progressive web apps, 2020.
+\newblock URL
+  \url{https://www.bbvaapimarket.com/en/api-world/minimum-requirements-implementing-progressive-web-apps/}.
+\newblock Accessed: January 8, 2024.
+
+\bibitem[Duong(2023)]{pwa}
+Tuan~Anh Duong.
+\newblock Top best pwa development tools and technologies for your business,
+  2023.
+\newblock URL \url{https://magenest.com/en/pwa-development-tools/}.
+\newblock Accessed: January 8, 2024.
+
+\end{thebibliography}

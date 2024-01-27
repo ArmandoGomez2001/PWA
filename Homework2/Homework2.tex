@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{natbib}  
+\usepackage{hyperref} 
+\setlength{\parskip}{10pt}
+
+\title{Progresive web apps}
+\author{Jesus Armando Gomez Leyva}
+
+\begin{document}
+\maketitle
+
+
+\section{Development and Execution Tools}
+
+
+\begin{itemize}
+    \item \textbf{Front-end PWA Development Tools}
+        \begin{itemize}
+            \item \textbf{React.js:} 
+            React.js, commonly referred to simply as React, is an open-source JavaScript library for building user interfaces or UI components. It was developed by Facebook and is widely used for creating single-page applications, allowing developers to create reusable UI components and manage the state of an application seamlessly.
+            \item \textbf{Next.js:} Next.js is a popular framework built on top of React.js, and also one of the most famous PWA development tools designed to enable server-rendered React applications with ease. It offers developers a robust set of features to create both static and dynamic web applications, optimizing performance, search engine optimization (SEO), and user experience.
+            \item \textbf{Gatsby.js:} Gatsby.js, commonly referred to as Gatsby, is a modern, open-source framework built upon React.js for building static websites and applications. It’s particularly known for its performance optimization, developer-friendly tooling, and ability to pull data from various sources using a technology called GraphQL.
+            \item \textbf{AngularJs:} AngularJS is an open-source JavaScript framework primarily used for building web applications. Developed and maintained by Google, it has played a pivotal role in the evolution of single-page applications (SPAs) and dynamic web app development.
+            \item \textbf{Ionic:} Ionic is a widely-used, open-source framework for developing cross-platform mobile, desktop, and progressive web apps (PWAs) using web technologies like HTML, CSS, and JavaScript. What sets Ionic apart is its ability to enable developers to use a single codebase to craft applications for multiple platforms, making the development process more efficient and streamlined.
+            \item \textbf{VueJS:} Vue.js, often referred to simply as Vue, is an open-source progressive JavaScript framework used for building user interfaces and single-page applications. Developed by Evan You, Vue has rapidly gained traction in the web development community due to its simplicity, flexibility, and approachable design.
+        \end{itemize}
+    \item \textbf{Backend PWA Development Tools}
+        \begin{itemize}
+            \item \textbf{Node.js:} Node.js is a groundbreaking runtime environment that has revolutionized the way developers approach JavaScript. Traditionally, JavaScript was confined to the browser, handling tasks on the client side. With the advent of Node.js, JavaScript leaped beyond this boundary, enabling developers to use it on the server side as well.
+            \item \textbf{Django:} Django is a high-level, open-source web framework written in Python, renowned for its robustness and versatility. Founded on the principle of Don’t repeat yourself (DRY), Django promotes reusability and pragmatism, encouraging developers to utilize pre-existing components instead of building from scratch. This philosophy not only streamlines web development but also fosters maintainability and scalability.
+            \item \textbf{Ruby on Rails:} Ruby on Rails, often simply referred to as Rails, is a powerful web application framework written in the Ruby programming language. Launched in 2004 by David Heinemeier Hansson, it has since become one of the most popular frameworks for web development, known for its convention over configuration (CoC) and doesn’t repeat yourself (DRY) principles.
+            \item \textbf{ASP.NET Core:} ASP.NET Core is a cutting-edge, open-source web framework developed by Microsoft. It is a redesign of the older ASP.NET framework but with a focus on modularity, performance, and cross-platform support. Designed to empower developers to create modern, cloud-based web applications, it provides tools for both web API development and traditional web applications.
+            \item \textbf{Magento PWA Studio:} Magento PWA Studio is a collection of tools and libraries specifically designed to assist developers in creating progressive web applications (PWAs) on the Magento platform. The advent of the PWA Studio showcases Magento’s commitment to harnessing the latest web standards and providing merchants with advanced capabilities to meet modern consumers expectations.
+        \end{itemize}
+\end{itemize}
+\citep{pwa}
+
+\section{PWA Requirements}
+
+\subsection*{1. Site Visit Verification}
+
+In Google Chrome, users must have visited the site hosting the PWA twice within a five-minute interval before the browser shows the message to install it. This is a simple way of determining user interest, but not the most reliable form of verification. It may be replaced by a better measure in the future.
+
+\subsection*{2. Valid Secure HTTPS Connection}
+
+The Progressive Web App requires a valid secure HTTPS connection. This provides a relatively safe environment for users, as network requests are routed via a service worker script. The use of HTTPS helps mitigate vulnerabilities and allows the app to run heavy code in the background without blocking the user interface. A secure connection also contributes to building trust among users and offers some SEO benefits.
+
+\subsection*{3. Valid Installed JSON Manifest}
+
+A valid JSON manifest is necessary for Progressive Web Apps. This information is cached by the service worker, and the shell app is used to load CSS rules, delivering an offline version with complete user interface capabilities. The shell app is an autonomous container with all the necessary resources, such as style sheets, scripts, images, fonts, and HTML outputs.
+
+\subsection*{4. Installed Service Worker}
+
+The service worker is responsible for caching files, handling push notifications, managing content updates, and more. It operates independently of any app or website on the web server. The service worker listens to network requests on the server but is located as a .js file on the user's device. It handles requests with appropriate responses based on the availability of an Internet connection, enabling customized offline pages.
+
+Once these four requirements are correctly implemented, users of Android phones and other compatible devices will be prompted to add the PWA to their home screen. An icon similar to a regular app will be created, opening in a browser when clicked.
+
+\citep{pwaRequirements}
+
+\bibliographystyle{plainnat} 
+\bibliography{./references2} 
+
+
+
+
+\end{document}

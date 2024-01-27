@@ -1,0 +1,34 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gill(2023)]{SOA}
+Navdeep~Singh Gill.
+\newblock What is service-oriented architecture (soa)?, 2023.
+\newblock URL
+  \url{https://www.xenonstack.com/insights/service-oriented-architecture}.
+\newblock Accessed: January 5, 2024.
+
+\bibitem[Kremer(2023)]{pwaBenefits}
+Meryl Kremer.
+\newblock What is a pwa?, 2023.
+\newblock URL \url{https://onesignal.com/blog/what-is-a-pwa/}.
+\newblock Accessed: January 5, 2024.
+
+\bibitem[Nyakundi(2023)]{PWA}
+Hillary Nyakundi.
+\newblock What is a pwa? progressive web apps for beginners, 2023.
+\newblock URL
+  \url{https://www.freecodecamp.org/news/what-are-progressive-web-apps/}.
+\newblock Accessed: January 5, 2024.
+
+\bibitem[StoreFront(2023)]{PWA2}
+Vue StoreFront.
+\newblock What is pwa? progressive web apps in ecommerce explained, 2023.
+\newblock URL \url{https://vuestorefront.io/blog/pwa}.
+\newblock Accessed: January 5, 2024.
+
+\end{thebibliography}
