@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T21:38:38.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.0.2" etag="1ZJ-fquurqud53cH03Q6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T22:01:33.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6KqxE-boLwllj0Eg_BKp" version="23.0.2" type="github">
   <diagram name="Página-1" id="9p1yN0jeeB281-lw9D0t">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OAP9CSuasoYouma8eWRJ-1" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-2" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-4" value="EcoMeter" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="40" width="450" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-5" value="Registrarse" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-7" value="Visualizar consumo electrico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=-0.007;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OAP9CSuasoYouma8eWRJ-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="200" as="sourcePoint" />
+            <mxPoint x="260" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="OAP9CSuasoYouma8eWRJ-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="230" as="sourcePoint" />
+            <mxPoint x="250" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-13" value="Administrar usuarios" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="OAP9CSuasoYouma8eWRJ-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="220" as="sourcePoint" />
+            <mxPoint x="650" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-15" value="Visualizar historial de consumo electrico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.021;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="OAP9CSuasoYouma8eWRJ-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="280" as="sourcePoint" />
+            <mxPoint x="260" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-17" value="Enviar notificaciones" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.05;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OAP9CSuasoYouma8eWRJ-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="360" as="sourcePoint" />
+            <mxPoint x="120" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-19" value="Administrar sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OAP9CSuasoYouma8eWRJ-20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="OAP9CSuasoYouma8eWRJ-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="250" as="sourcePoint" />
+            <mxPoint x="548" y="181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
