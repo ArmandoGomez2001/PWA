@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.5)  27 JAN 2024 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.5)  1 FEB 2024 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/52647/OneDrive - Universidad Tecnológica de Tijuana/Documents/PWA/PWA/SRS/SRS.tex"
-(c:/Users/52647/OneDrive - Universidad Tecnológica de Tijuana/Documents/PWA/PWA/SRS/SRS.tex
+**"c:/Users/52647/OneDrive - Universidad Tecnológica de Tijuana/Documents/PWA/PWA/Proyecto Final/Primer Avance/SRS/SRS.tex"
+(c:/Users/52647/OneDrive - Universidad Tecnológica de Tijuana/Documents/PWA/PWA/Proyecto Final/Primer Avance/SRS/SRS.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
 (C:\Users\52647\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -275,12 +275,12 @@ L3 programming layer <2023-12-11>
  ) 
 Here is how much of TeX's memory you used:
  3337 strings out of 474494
- 54128 string characters out of 5743915
+ 54331 string characters out of 5743915
  1940460 words of memory out of 5000000
  25612 multiletter control sequences out of 15000+600000
  588039 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,335b,258s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,364b,258s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/52647/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/52647/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/52647/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/52647/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on SRS.pdf (1 page, 57072 bytes).
 PDF statistics:
