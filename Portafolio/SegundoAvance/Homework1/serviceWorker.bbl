@@ -1,0 +1,22 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arora(2017)]{Medium}
+Arora.
+\newblock A beginner’s guide to service workers, 2017.
+\newblock URL
+  \url{https://medium.com/samsung-internet-dev/a-beginners-guide-to-service-workers-f76abf1960f6}.
+\newblock Accessed: February 29th, 2024.
+
+\bibitem[Docs(2024)]{ServiceWorker}
+Mdn~Web Docs.
+\newblock Service worker api, 2024.
+\newblock URL
+  \url{https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API}.
+\newblock Accessed: February 29th, 2024.
+
+\end{thebibliography}
