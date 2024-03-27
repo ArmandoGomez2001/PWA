@@ -1,0 +1,27 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[MageNest(2023)]{PWA}
+MageNest.
+\newblock Progressive web apps: A comprehensive knowledge for beginners, 2023.
+\newblock URL \url{https://magenest.com/en/progressive-web-apps/}.
+\newblock Accessed: March 26th, 2024.
+
+\bibitem[Microsoft(2024)]{Microsoft}
+Microsoft.
+\newblock How to make web pages available for offline viewing, 2024.
+\newblock URL
+  \url{https://support.microsoft.com/en-us/topic/how-to-make-web-pages-available-for-offline-viewing-aa1ada53-1572-562b-c7bc-73fe0845105a}.
+\newblock Accessed: March 26th, 2024.
+
+\bibitem[NetworkEncyclopedia(2023)]{Network}
+NetworkEncyclopedia.
+\newblock Offline browsing: Navigating without connectivity, 2023.
+\newblock URL \url{https://networkencyclopedia.com/offline-browsing/}.
+\newblock Accessed: March 26th, 2024.
+
+\end{thebibliography}

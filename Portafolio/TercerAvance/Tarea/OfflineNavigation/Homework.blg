@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Homework.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--entry type for "Microsoft" isn't style-file defined
+--line 1 of file references.bib
+Warning--entry type for "PWA" isn't style-file defined
+--line 17 of file references.bib
+Warning--entry type for "Network" isn't style-file defined
+--line 33 of file references.bib
+You've used 3 entries,
+            2773 wiz_defined-function locations,
+            609 strings with 5322 characters,
+and the built_in function-call counts, 951 in all, are:
+= -- 84
+> -- 30
+< -- 3
++ -- 12
+- -- 9
+* -- 47
+:= -- 151
+add.period$ -- 12
+call.type$ -- 3
+change.case$ -- 12
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 45
+empty$ -- 97
+format.name$ -- 12
+if$ -- 199
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 26
+num.names$ -- 12
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 0
+skip$ -- 40
+stack$ -- 0
+substring$ -- 6
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 33
+warning$ -- 0
+while$ -- 9
+width$ -- 0
+write$ -- 49
+(There were 3 warnings)

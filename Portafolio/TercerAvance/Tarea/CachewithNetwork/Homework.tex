@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{natbib}  
+\usepackage{hyperref} 
+\setlength{\parskip}{10pt}
+
+\title{Cache with Network}
+\author{Jesus Armando Gomez Leyva}
+
+\begin{document}
+\maketitle
+
+\section*{1. Definition}
+A cache provides temporary storage of resources that have been requested by an application. If an application requests the same resource more than once, the resource can be returned from the cache, avoiding the overhead of re-requesting it from the server. Caching can improve application performance by reducing the time required to get a requested resource. Caching can also decrease network traffic by reducing the number of trips to the server. While caching improves performance, it increases the risk that the resource returned to the application is stale, meaning that it is not identical to the resource that would have been sent by the server if caching were not in use.
+
+\citep*{Microsoft}
+
+\section*{2. What does a browser cache do?}
+Every time a user loads a webpage, their browser has to download quite a lot of data in order to display that webpage. To shorten page load times, browsers cache most of the content that appears on the webpage, saving a copy of the webpage's content on the device’s hard drive. This way, the next time the user loads the page, most of the content is already stored locally and the page will load much more quickly.
+
+Browsers store these files until their time to live (TTL) expires or until the hard drive cache is full. (TTL is an indication of how long content should be cached.) Users can also clear their browser cache if desired.
+
+\citep*{CloudFare}
+\section*{3. Advantages of Implementing Web Cache}
+The implementation of web cache offers numerous benefits:
+
+
+\begin{enumerate}[label=\arabic*.]
+    \item It improves the web page loading speed, providing a satisfactory user experience.
+    \item It helps reduce the load on servers since fewer requests reach the server, especially during peak traffic periods.
+    \item It reduces bandwidth usage since fewer data needs to be downloaded.
+\end{enumerate}
+
+\citep*{Solutions}
+
+\section*{4. Types of Web Cache}
+There are several types of web cache, each with its own characteristics and uses.
+
+\subsection*{Browser Cache}
+The browser cache stores web files directly on our device. When we visit a website, the browser stores copies of the site's files in the browser cache. The next time we visit the same site, the browser can load the page much faster because it can retrieve many of the necessary files from the browser cache instead of downloading them again from the server.
+
+\subsection*{Proxy Cache}
+Proxy caches, also known as proxy caches, are located on proxy servers, which sit between users and web servers. These caches store copies of responses to requests, such as complete web pages, and can provide these copies to any user making the same request. This can be very useful for saving bandwidth and speeding up page loads on networks with many users, such as in a company or an Internet service provider.
+
+\subsection*{Server Cache}
+Server cache is on the server side and stores responses to recent requests so they can be reused if similar requests are received. This type of cache is particularly useful for dynamic websites, where pages are generated in response to user requests. By storing responses, the server can respond more quickly to future requests.
+
+\citep*{Solutions}
+\bibliographystyle{plainnat} % Choose a bibliography style
+    \bibliography{references} 
+\end{document}
